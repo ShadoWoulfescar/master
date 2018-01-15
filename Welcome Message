@@ -9,7 +9,7 @@ bot.on('ready', function(event) {
 });
 
 bot.on('message', function(user, userID, channelID, message, event) {
-    if (message === "ping") {
+    if (message === "Welcome to the Wasteland") {
         bot.sendMessage({
             to: channelID,
             message: "Welcome to the Wasteland"
